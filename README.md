@@ -27,85 +27,42 @@ Modal-based UI: Clean and simple forms for login, signup, and creating new resum
 
 This project is built with a modern MERN stack and a focus on performance and developer experience.
 
-Frontend
+Frontend--
+React-- Core UI library for building components.
 
-Technology
+Vite-- Next-generation build tool for blazing-fast development.
 
-Purpose
+React Router-- For client-side routing (/, /dashboard, etc.).
 
-React
+Tailwind CSS-- (Inferred) Utility-first CSS framework for rapid UI styling.
 
-Core UI library for building components.
+Axios-- Promise-based HTTP client for API requests.
 
-Vite
+Lucide Icons-- Beautiful and consistent open-source icons.
 
-Next-generation build tool for blazing-fast development.
+jsPDF & html2canvas-- To convert HTML components directly into a downloadable PDF.
 
-React Router
+react-hot-toast-- For clean and simple toast notifications.
 
-For client-side routing (/, /dashboard, etc.).
+moment.js-- For easy date and time formatting.
 
-Tailwind CSS
-
-(Inferred) Utility-first CSS framework for rapid UI styling.
-
-Axios
-
-Promise-based HTTP client for API requests.
-
-Lucide Icons
-
-Beautiful and consistent open-source icons.
-
-jsPDF & html2canvas
-
-To convert HTML components directly into a downloadable PDF.
-
-react-hot-toast
-
-For clean and simple toast notifications.
-
-moment.js
-
-For easy date and time formatting.
 
 Backend
+Node.js-- JavaScript runtime for the server.
 
-Technology
+Express.js-- Fast, minimalist web framework for building the API.
 
-Purpose
+MongoDB-- NoSQL database to store user and resume data.
 
-Node.js
+Mongoose-- Elegant MongoDB object modeling for Node.js.
 
-JavaScript runtime for the server.
+JWT (jsonwebtoken)-- For creating secure, stateless authentication tokens.
 
-Express.js
+bcrypt.js--For hashing user passwords before saving to the database.
 
-Fast, minimalist web framework for building the API.
+CORS--To allow cross-origin requests from the frontend.
 
-MongoDB
-
-NoSQL database to store user and resume data.
-
-Mongoose
-
-Elegant MongoDB object modeling for Node.js.
-
-JWT (jsonwebtoken)
-
-For creating secure, stateless authentication tokens.
-
-bcrypt.js
-
-For hashing user passwords before saving to the database.
-
-CORS
-
-To allow cross-origin requests from the frontend.
-
-dotenv
-
-To manage environment variables securely.
+dotenv-- To manage environment variables securely.
 
 🏁 Getting Started
 
